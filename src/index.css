@@ -1,0 +1,172 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #e74c3c !important;
+}
+.NavBar{
+  margin-bottom: 55px;
+}
+.search{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: rgb(146, 53, 24);
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top:5px;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .search .search_input{
+  padding: 0 10px;
+  width: 550px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+  
+  .search:hover > .search_icon{
+  background: red;
+  color: #fff;
+  }
+
+  .search_icon{
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:rgb(255, 255, 255);
+  background-color:rgb(62, 34, 34);
+  }
+  
+a:link{
+  text-decoration:none;
+}    
+.main-todo-input-wrap {
+  max-width: 500px;
+  margin: 20px auto;
+  position: relative
+}
+
+:focus {
+  outline: 0
+}
+
+@media only screen and (max-width: 768px) {
+  .main-todo-input {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 14px 20px 10px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.0)
+  }
+
+  .main-todo-input-item {
+      width: 100%;
+      border: 1px solid #eee;
+      height: 50px;
+      border: none;
+      margin-bottom: 10px
+  }
+
+  .main-todo-input-item input {
+      border-radius: 6px !important;
+      background: #fff
+  }
+
+  .main-search-button {
+      position: relative;
+      float: left;
+      width: 100%;
+      border-radius: 6px
+  }
+}
+
+.remove{
+   float: right;
+  color: #757575 !important;
+  font-size: 14px;
+}
+
+#list-items{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+ul { 
+padding:0;
+text-align:left;
+list-style:none;
+}
+
+.todo-text{
+
+color: #757575;
+margin-left: 10px;
+} 
+
+.strike{ 
+color:blue;
+}
+
+.todo-listing{
+padding: 0px 29px 0 0;   
+margin-top: 54px !important;
+}
+.TaskList{
+  background-color: rgb(171, 152, 152);
+  width: 50%;
+  height: auto;
+  margin: auto;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.TaskList ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+#BTN button{
+  background-color: rgb(171, 152, 152) !important;
+  margin-left: 10px;
+  border: 0px solid black;
+}
+ i:hover{
+  background-color: red;
+  color: #fff;
+}
+.contain{
+  min-height: 100vh;
+}
+ #quan{
+  border-top: 2px solid black;
+  width: 100%;
+  display: flex;
+  padding: 4px;
+  margin-top: 30%;
+  justify-content: center;
+  align-items: center;
+}
