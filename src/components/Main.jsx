@@ -42,10 +42,6 @@ export  function Main(){
         setIsEditing(index)
         setTask(list[index])
      }
-     function Checked(){
-        document.getElementById('items').style.textDecoration =
-        document.getElementById('items').style.textDecoration === 'line-through' ? "" : 'line-through'
-     }
 
     return(
         <div className="contain">
@@ -86,7 +82,6 @@ export  function Main(){
                             {t}
                             <div id="BTN">
                                 <button onClick={() => EditTask(index)}><i className="fa-solid fa-pen-to-square search_icon"></i></button>
-                                <button onClick={()=>Checked()}><i class="fa-solid fa-check"></i></button>
                                 <button onClick={() => DeleteTask(index)}><i className="fa-solid fa-trash search_icon"></i></button>
                             </div>
 
